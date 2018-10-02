@@ -4,14 +4,41 @@ body {
 	flex-direction: column;
 }
 
+.section {
+	border-bottom: 8px solid grey;
+	margin-bottom: 20px;
+}
+
+.section:last-child {
+	border-bottom-width: 0px;
+	margin-bottom: 0px;
+}
+
 .title {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	font: 2em Palatino Linotype;
 }
 
 .row {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	border: 5px dashed #1010A2;
+	border-radius: 10px;
+	padding: 5px 0px;
+	margin: 10px 0px;
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	background-color: #FF5566;
+	padding: 10px;
+}
+
+a:hover {
+	background-color: #CC2233;
 }

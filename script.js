@@ -10,6 +10,9 @@ function parseData(data) {
 }
 
 function addRow(name, content) {
+	let section = document.createElement("div");
+	section.classList.add("section");
+
 	let title = document.createElement("div");
 	title.innerHTML = name;
 	title.classList.add("title");
@@ -24,6 +27,7 @@ function addRow(name, content) {
 		row.appendChild(child);
 	}
 
-	document.body.appendChild(title);
-	document.body.appendChild(row);
+	section.appendChild(title);
+	section.appendChild(row);
+	document.body.appendChild(section);
 }
