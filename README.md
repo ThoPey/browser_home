@@ -2,6 +2,10 @@
 
 Change your browser home page to an helpful one where you can access your favorite websites easily.
 
+## Example
+
+![Example image](https://raw.githubusercontent.com/ThoPey/browser_home/master/example.png)
+
 ## Features
 
 1. Create **buttons** linking to any website you want and 
