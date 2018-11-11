@@ -41,4 +41,4 @@ You can create as much categories and links as you want.
 
 ### Step 2
 
-Go to your browser parameters and change the homepage to file:///*path_to_files*/home.html
+Go to your browser parameters and change the homepage to file:///path/to/files/home.html
