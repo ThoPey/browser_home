@@ -7,7 +7,7 @@ Change your browser home page to an helpful one where you can access your favori
 1. Create **buttons** linking to any website you want and 
 2. Create **categories** to put them in
 
-## Usage
+## Usage
 
 ### Step 1
 
