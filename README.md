@@ -15,7 +15,11 @@ Change your browser home page to an helpful one where you can access your favori
 
 ### Step 1
 
-Create a 'data.json' file :
+Download the repository's files.
+
+### Step 2
+
+Create a 'data.json' file in it :
 ```json
 {
 	"Category1": {
@@ -39,6 +43,6 @@ Create a 'data.json' file :
 
 You can create as much categories and links as you want.
 
-### Step 2
+### Step 3
 
 Go to your browser parameters and change the homepage to file:///path/to/files/home.html
